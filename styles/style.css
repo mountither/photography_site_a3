@@ -1,0 +1,145 @@
+/*
+filename: style.css
+author: mountither 
+created: 25/08/2019
+last modified: 02/09/19
+description: index.html, topic.html, quiz.html, enhancements.html
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #ffffff;
+    line-height: 22pt; 
+    background-image: url(images/quiz_bg.jpg);
+}
+
+.site_head {
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 50px;
+    background-size: 100%;
+    margin: -5px;
+    padding: 10px;
+    
+}    
+
+.site_head h1 {
+    font: bold 80px 'Gafata', sans-serif;
+    color: #1b1281;
+    text-shadow: 3px 3px #f58dbb;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #284288;
+    border-radius: 100px;
+    margin-top: -45px;
+}
+.navbar ul{ 
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar ul li a:hover {
+    background-color: rgb(128, 243, 209);
+    color:black;
+}
+
+.main_col {
+    float: left;
+    width: 68%;
+    margin: auto;
+   
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.blocks {
+    background-color: #a9d9f54b;
+    padding: 20px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    border-radius: 20px;    
+}
+.blocks h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 2em;
+    display: inline;
+    color: #284288;
+} 
+.blocks h3::after {
+    content: " Explore this space and enjoy the content provided."; 
+    color: rgb(145, 121, 221);
+}
+.blocks a:hover{
+    color: #284288;
+}
+.blocks a {
+    color: rgb(39, 127, 243);
+    text-decoration: none;
+}
+
+.details {
+    display: block;
+    text-align: center;
+    margin: 2%;
+}
+
+.foot {
+    padding: 12px;
+    background-color: rgb(145, 121, 221);
+    margin-top: 20px;
+    clear: both;
+    border-radius: 5px;
+}
+
+.foot p:first-child {float: left; 
+                    font-style: italic; 
+                    font-size: 14px;
+                    
+}
+
+.foot p:nth-child(2) {float: right; 
+                      font-style: italic; 
+                      font-size: 14px;
+}
+
+.section_row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+

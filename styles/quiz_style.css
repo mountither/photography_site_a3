@@ -1,0 +1,55 @@
+/*
+filename: quiz.css
+author: mountither 
+created: 25/08/2019
+last modified: 02/09/19
+description: quiz.html
+*/
+
+.quiz_intro {
+    background-color: #a9d9f54b;
+    padding: 20px;
+    margin-top: 20px; 
+    border-radius: 20px;
+    text-align: center;
+}
+
+.details p{
+    display: inline-block;
+    width: 20%;
+
+}
+
+figcaption {
+    font-style: italic;
+}
+
+fieldset {
+    border-radius: 20px;
+    border: solid thick rgb(145, 121, 221);
+    margin: 10px;
+    text-align: center;
+}
+
+.button input:first-child{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(24, 138, 190);
+}
+.button input:nth-child(2) {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(230, 49, 49);
+}
+.button input:first-child:hover{
+    background-color: rgb(24, 138, 190);
+    color: white;
+}
+.button input:nth-child(2):hover {
+    background-color:rgb(230, 49, 49);
+    color: white;
+}
+
+
