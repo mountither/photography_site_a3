@@ -1,8 +1,8 @@
 <?php
-//set password
-    $host = "feenix-mariadb.swin.edu.au";
-    $user = "s102486181";
-    $pwd = "*****";
-    $sql_db = "s102486181_db";
+
+    $host = "127.0.0.1";
+    $user = "root";
+    $pwd = "";
+    $sql_db = "test2";
     
 ?>
